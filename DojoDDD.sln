@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DojoDDD.Api", "src\DojoDDD.Api\DojoDDD.Api.csproj", "{DCDDFC2F-A55A-40B1-9E1F-86BD4F08CACD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39CF43C0-6791-43B4-8D78-4EB551AFB977}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13B6DB6F-61C9-4F11-8422-8FD4FDB0B9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoDDD.Domain", "src\DojoDDD.Domain\DojoDDD.Domain.csproj", "{D80D47E1-65AE-4C34-A903-09729129225A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoDDD.Application", "src\DojoDDD.Application\DojoDDD.Application.csproj", "{274EEA3E-90BF-41C9-A771-A3D631D1DC7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DojoDDD.Infrastructure", "src\DojoDDD.Infrastructure\DojoDDD.Infrastructure.csproj", "{3EB1A867-0CB0-4E80-BF51-6B8BC30E0755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCDDFC2F-A55A-40B1-9E1F-86BD4F08CACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDDFC2F-A55A-40B1-9E1F-86BD4F08CACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDDFC2F-A55A-40B1-9E1F-86BD4F08CACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDDFC2F-A55A-40B1-9E1F-86BD4F08CACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80D47E1-65AE-4C34-A903-09729129225A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80D47E1-65AE-4C34-A903-09729129225A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80D47E1-65AE-4C34-A903-09729129225A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80D47E1-65AE-4C34-A903-09729129225A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274EEA3E-90BF-41C9-A771-A3D631D1DC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274EEA3E-90BF-41C9-A771-A3D631D1DC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274EEA3E-90BF-41C9-A771-A3D631D1DC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274EEA3E-90BF-41C9-A771-A3D631D1DC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB1A867-0CB0-4E80-BF51-6B8BC30E0755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB1A867-0CB0-4E80-BF51-6B8BC30E0755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB1A867-0CB0-4E80-BF51-6B8BC30E0755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB1A867-0CB0-4E80-BF51-6B8BC30E0755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCDDFC2F-A55A-40B1-9E1F-86BD4F08CACD} = {13B6DB6F-61C9-4F11-8422-8FD4FDB0B9DA}
+		{D80D47E1-65AE-4C34-A903-09729129225A} = {13B6DB6F-61C9-4F11-8422-8FD4FDB0B9DA}
+		{274EEA3E-90BF-41C9-A771-A3D631D1DC7A} = {13B6DB6F-61C9-4F11-8422-8FD4FDB0B9DA}
+		{3EB1A867-0CB0-4E80-BF51-6B8BC30E0755} = {13B6DB6F-61C9-4F11-8422-8FD4FDB0B9DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB980C48-43EA-4E1B-90DD-096A92959D81}
+	EndGlobalSection
+EndGlobal
