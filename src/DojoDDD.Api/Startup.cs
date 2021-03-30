@@ -28,10 +28,10 @@ namespace DojoDDD.Api
             services.AddLogging();
 
             services.AddSingleton<DataStore>();
-            services.AddTransient<IClienteRepositorio, ClienteRepositorio>();
-            services.AddTransient<IProdutoRepositorio, ProdutoRepositorio>();
-            services.AddTransient<IOrdemCompraServico, OrdemCompraServico>();
-            services.AddTransient<IOrdemCompraRepositorio, OrdemCompraRepositorio>();
+            services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
+            services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+            services.AddScoped<IOrdemCompraServico, OrdemCompraServico>();
+            services.AddScoped<IOrdemCompraRepositorio,OrdemCompraRepositorio>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
